@@ -112,8 +112,10 @@ if (!defined('K_TCPDF_EXTERNAL_CONFIG')) {
     /**
      * path for PDF fonts
      * use K_PATH_MAIN.'fonts/old/' for old non-UTF8 fonts
+     *
+     * At traperto we define the font-path by ourselves so we do not need this definition
      */
-    define('K_PATH_FONTS', K_PATH_MAIN.'fonts/');
+    //define('K_PATH_FONTS', K_PATH_MAIN.'fonts/');
 
     /**
      * cache directory for temporary files (url path)
